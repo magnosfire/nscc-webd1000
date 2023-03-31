@@ -13,7 +13,20 @@
 
 */
 
-
-
 /* Column Styles */
 
+article {
+   column-width: 200px;
+   column-gap: 200px;
+   column-rule: 1px solid rgb(154, 64, 31);
+   widows: 2;
+   orphans: 2;
+   -webkit-column-width:260px;
+   -webkit-column-gap: 20px;
+   -webkit-column-rule: 1px solid rgb(154, 64, 31);
+}
+
+article h1 {
+   column-span: all;
+   -webkit-column-span: all;
+}

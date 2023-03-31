@@ -71,10 +71,10 @@
    =============================================
 */
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:641px) {
 
    table {
-      background-color: url(lht_photo1.png) no-repeat bottom right / 40%;
+      background: url(lht_photo1.png) no-repeat bottom right / 40%;
       border: 6px double rgb(154, 64, 3);
       border-collapse: collapse;
       margin: 20px auto;
