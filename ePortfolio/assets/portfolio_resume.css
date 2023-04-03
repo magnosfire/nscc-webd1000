@@ -1,0 +1,30 @@
+/*
+   Author: Renan Rossini de Oliveira - w0444914
+
+*/
+
+.container-experiences {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+}
+
+.container-experience-img-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 5vw;
+    width: 33vw;
+    height: 33vw;
+    background-color: red;
+}
+
+.container-experience-information {
+    width: 33vw;
+    margin-right: 5vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
