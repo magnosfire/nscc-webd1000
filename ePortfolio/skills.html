@@ -5,29 +5,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ePortifolio - Skills</title>
-    <link rel="stylesheet" href="./assets/portfolio_layout.css"/>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/portfolio_layout.css" />
+    <link rel="stylesheet" href="./assets/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./assets/js/header.js"></script>
 </head>
 
 <body>
-    <div>
-        <a href="./index.html" target="_parent">Home</a>
-        <a href="./goals.html" target="_parent">Goals</a>
-        <a href="./contacts.html" target="_parent">Contact</a>
-        <a href="./skills.html" target="_parent">Skills</a>
-        <a href="./resume.html" target="_parent">Resume</a>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./goals.html">Goals</a>
+        <a href="./skills.html" class="active">Skills</a>
+        <a href="./contacts.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    <div>
-        <h1>Skills</h1>
+    <div class="information-img">
+        <img src="./assets/img/hard-skills.jpg" class="big-image-goals" alt="Skills image">
+    </div>
+    <div class="container">
         <div>
-            <div class="information">
-                <label>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin, leo id porttitor rhoncus, eros tellus porta massa, ullamcorper eleifend metus risus mollis massa. 
-                </label>
-            </div>
-            <div class="information-img">
-                <img src="./assets/img/hard-skills.jpg" alt="Skills image">
+            <div class="main-information">
+                <p>
+                    In almost a decade of working as a Full-stack software developer, I was able to develop technical and soft skills. There are some of my current skills that I am proud of.
+                </p>
             </div>
         </div>
+        <div class="container-items">
+            <div class="item">
+                <img src="./assets/img/teamwork.png"></img>
+                <p class="item-title">Teamworker</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/ts.png"></img>
+                <p class="item-title">Typescript</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/communication.png"></img>
+                <p class="item-title">Communication</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/react.png"></img>
+                <p class="item-title">React/React Native</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/problem-solving.png"></img>
+                <p class="item-title">Problem Solving</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/sql.png"></img>
+                <p class="item-title">SQL</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/python.png"></img>
+                <p class="item-title">Python</p>
+            </div>
+            <div class="item">
+                <img src="./assets/img/angular.png"></img>
+                <p class="item-title">Angular</p>
+            </div>
+        </div>
+
     </div>
 </body>
 
