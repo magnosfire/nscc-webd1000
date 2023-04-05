@@ -5,27 +5,55 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ePortifolio - Goals</title>
-    <link rel="stylesheet" href="./assets/portfolio_layout.css"/>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/portfolio_layout.css" />
+    <link rel="stylesheet" href="./assets/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./assets/js/header.js"></script>
 </head>
 
 <body>
-    <div>
-        <a href="./index.html" target="_parent">Home</a>
-        <a href="./goals.html" target="_parent">Goals</a>
-        <a href="./contacts.html" target="_parent">Contact</a>
-        <a href="./skills.html" target="_parent">Skills</a>
-        <a href="./resume.html" target="_parent">Resume</a>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./goals.html" class="active">Goals</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./contacts.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    <div>
-        <h1>Goals</h1>
-        <div>
-            <div class="information">
-                <label>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin, leo id porttitor rhoncus, eros tellus porta massa, ullamcorper eleifend metus risus mollis massa. 
-                </label>
+    <div class="information-img">
+        <img src="./assets/img/goals.jpg" class="big-image-goals" alt="Goals image">
+    </div>
+    <div class="container">
+        <div class="container-information">
+            <div class="container-information-left">
+                <div class="information">
+                    <h1>2023</h1>
+                    <p>This year will be a year to improve my database skill and be ready to complete the course. Also, I will continue working as a software developer.
+                    </p>
+                </div>
             </div>
-            <div class="information-img">
-                <img src="./assets/img/goals.jpg" alt="Goals image">
+            <div class="container-information-right">
+                <div class="information-image-container">
+                    <img class="" src="./assets/img/resume.jpg"></img>
+                </div>
+            </div>
+        </div>
+        <div class="container-information">
+            <div class="container-information-left">
+                <div class="information-image-container">
+                    <img class="" src="./assets/img/resume.jpg"></img>
+                </div>
+            </div>
+            <div class="container-information-right">
+                <div class="information">
+                    <h1>2024</h1>
+                    <p>2024 will be the game changer. This year, I am planning to graduate and finally be able to work full-time for a Canadian company. Moreover, I want to find a full-time job as a DBA or a software developer and start my journey working with Canadian companies.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
